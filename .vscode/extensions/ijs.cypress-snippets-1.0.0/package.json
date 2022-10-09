@@ -1,0 +1,59 @@
+{
+	"name": "cypress-snippets",
+	"displayName": "Cypress Snippets by iJS",
+	"description": "Cypress Testing Snippets",
+	"publisher": "iJS",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ijsto/cypress-snippets"
+	},
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.35.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"author": "(Scott) Agirs Neminskis <scott@ijs.to>",
+	"keywords": [
+		"Cypress Snippets",
+		"VSCode",
+		"Snippets",
+		"javascript testing snippets",
+		"React testing snippets",
+		"vue testing snippets",
+		"Nextjs testing snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "46edf7dd-61d3-4721-86bc-fd04963e3791",
+		"publisherId": "0557c4be-d7ab-40a4-bec3-09c5e54dfce4",
+		"publisherDisplayName": "iJS.to",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1664546190080
+	}
+}

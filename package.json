@@ -1,0 +1,14 @@
+{
+  "name": "zalu",
+  "version": "1.0.0",
+  "description": "automation test using cypress (learn)",
+  "main": "index.js",
+  "author": "zalu",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "9.7.0"
+  }
+}
