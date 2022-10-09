@@ -13,7 +13,7 @@ describe('My First Test', () => {
 
         // Get an input, type into it and verify that the value has been update
         cy.get('.action-email')
-          .type('jalu@email.com')
-          .should('have.value', 'jalu@email.com')
+          .type('setiadi@email.com')
+          .should('have.value', 'setiadi@email.com')
     })
 })
