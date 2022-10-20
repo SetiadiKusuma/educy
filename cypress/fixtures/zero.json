@@ -1,0 +1,13 @@
+{
+    "login_user": {
+      "user_name": "username",
+      "password": "password"
+    },
+    "pay_bills": {
+      "payee": "bofa",
+      "account": "5",
+      "amount": "100",
+      "date": "19",
+      "description": "Test Transaction Pay Bills"
+    }
+}

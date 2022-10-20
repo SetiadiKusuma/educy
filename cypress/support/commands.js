@@ -23,3 +23,18 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (user_name, password) => {
+        cy.visit('http://zero.webappsecurity.com/login.html')
+
+        cy.get('#user_login').type(user_name)
+
+        cy.get('#user_password').type(password)
+
+        cy.get('.controls [type="checkbox"]')
+                .not('[disabled]')
+                .check()
+                .should('be.checked')
+
+        cy.get('input[name="submit"]').click()
+})
